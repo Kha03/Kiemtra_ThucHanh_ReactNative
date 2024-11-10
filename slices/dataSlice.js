@@ -1,7 +1,6 @@
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 import axios from "axios";
 
-// URL của API mock
 const API_URL = "https://6719d7c4acf9aa94f6a803b0.mockapi.io/bike";
 
 export const fetchData = createAsyncThunk("data/fetchData", async () => {
